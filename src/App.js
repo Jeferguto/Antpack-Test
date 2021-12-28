@@ -6,7 +6,7 @@ function App() {
   const url = 'https://jsonplaceholder.typicode.com/users'
   const fetchApi = async() => { 
     const response = await fetch(url)
-    console.log(response.status)
+    console.log(response)
   }
   useEffect( ( ) => {
     fetchApi()
